@@ -1,7 +1,6 @@
-# Quantower Integration
-This custom indicator is designed for the [Quantower](https://www.quantower.com) trading platform using the Quantower Algo API.
+# Credits & References
 
-Special thanks to the Quantower team for their open API and documentation.
+This indicator was developed using the [Quantower Algo API](https://help.quantower.com/quantower/quantower-algo)  
+and is designed for the [AMP Quantower trading platform](https://quantower.com).
 
-
-Related: [Quantower Official GitHub](https://github.com/Quantower)
+Special thanks to [@Quantower](https://github.com/Quantower) for their API and documentation.
