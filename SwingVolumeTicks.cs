@@ -129,13 +129,13 @@ namespace SwingVolumeTicks
                     {
                         LinesSeries[0].SetMarker(pivotOffset,
                             new IndicatorLineMarker(Color.Lime,
-                                upperIcon: IndicatorLineMarkerIconType.UpArrow));
+                                upperIcon: IndicatorLineMarkerIconType.None));
                     }
                     else
                     {
                         LinesSeries[1].SetMarker(pivotOffset,
                             new IndicatorLineMarker(Color.Red,
-                                bottomIcon: IndicatorLineMarkerIconType.DownArrow));
+                                bottomIcon: IndicatorLineMarkerIconType.None));
                     }
                 }
 
@@ -217,7 +217,7 @@ namespace SwingVolumeTicks
 
             var converter = this.CurrentChart.MainWindow.CoordinatesConverter;
             Graphics gr = args.Graphics;
-            Font font = new Font("Arial", 12, FontStyle.Bold);
+            Font font = new Font("Arial", 8, FontStyle.Regular);
 
             /// DRAW ALL CONFIRMED SWINGS (WHITE TEXT)
             foreach (var swing in confirmedSwings)
